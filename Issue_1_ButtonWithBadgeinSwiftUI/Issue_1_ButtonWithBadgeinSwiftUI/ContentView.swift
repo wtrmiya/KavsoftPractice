@@ -22,6 +22,12 @@ struct ContentView: View {
         } label: {
           Text("Alt 1: Medium")
         }
+        
+        NavigationLink {
+          Alt1ViewUIKitView()
+        } label: {
+          Text("Alt 1 by UIKit")
+        }
       }
       .listStyle(.plain)
     }

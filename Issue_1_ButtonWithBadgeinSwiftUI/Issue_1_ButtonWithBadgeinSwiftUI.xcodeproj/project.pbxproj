@@ -13,6 +13,8 @@
 		86917CF52C4D0591008FC75D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86917CF42C4D0591008FC75D /* Preview Assets.xcassets */; };
 		86917CFC2C4D0606008FC75D /* YouTubeWay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86917CFB2C4D0606008FC75D /* YouTubeWay.swift */; };
 		86917CFE2C4D08A8008FC75D /* Alt1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86917CFD2C4D08A8008FC75D /* Alt1View.swift */; };
+		86917D002C4D9396008FC75D /* Alt1ViewUIKitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86917CFF2C4D9396008FC75D /* Alt1ViewUIKitController.swift */; };
+		86917D022C4D95A0008FC75D /* Alt1UIKitRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86917D012C4D95A0008FC75D /* Alt1UIKitRootView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		86917CF42C4D0591008FC75D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		86917CFB2C4D0606008FC75D /* YouTubeWay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeWay.swift; sourceTree = "<group>"; };
 		86917CFD2C4D08A8008FC75D /* Alt1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alt1View.swift; sourceTree = "<group>"; };
+		86917CFF2C4D9396008FC75D /* Alt1ViewUIKitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alt1ViewUIKitController.swift; sourceTree = "<group>"; };
+		86917D012C4D95A0008FC75D /* Alt1UIKitRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alt1UIKitRootView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				86917CEF2C4D0590008FC75D /* ContentView.swift */,
 				86917CFB2C4D0606008FC75D /* YouTubeWay.swift */,
 				86917CFD2C4D08A8008FC75D /* Alt1View.swift */,
+				86917CFF2C4D9396008FC75D /* Alt1ViewUIKitController.swift */,
+				86917D012C4D95A0008FC75D /* Alt1UIKitRootView.swift */,
 				86917CF12C4D0591008FC75D /* Assets.xcassets */,
 				86917CF32C4D0591008FC75D /* Preview Content */,
 			);
@@ -145,8 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86917D002C4D9396008FC75D /* Alt1ViewUIKitController.swift in Sources */,
 				86917CF02C4D0590008FC75D /* ContentView.swift in Sources */,
 				86917CFC2C4D0606008FC75D /* YouTubeWay.swift in Sources */,
+				86917D022C4D95A0008FC75D /* Alt1UIKitRootView.swift in Sources */,
 				86917CFE2C4D08A8008FC75D /* Alt1View.swift in Sources */,
 				86917CEE2C4D0590008FC75D /* Issue_1_ButtonWithBadgeinSwiftUIApp.swift in Sources */,
 			);
